@@ -37,12 +37,13 @@ body {
   box-sizing: border-box;
   padding-left: 25px;
   padding-right: 25px;
+  padding-bottom: 48px;
   position: relative;
+  margin-bottom: 7%;
   margin-top: 148px;
   background-color: white;
   width: 327px;
   border-radius: 23px;
-  padding-bottom: 48px;
 }
 
 .faq {
@@ -61,13 +62,6 @@ body {
   border-bottom: 1px solid #e8e8ea;
   padding-top: 18px;
   padding-bottom: 18px;
-}
-
-button:focus {
-  color: #1e1f36;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 16px;
 }
 
 button {
@@ -116,4 +110,10 @@ button {
 
 .someimage {
   transform: rotate(180deg);
+}
+
+.somebold {
+  color: #1e1f36;
+  font-size: 13px;
+  font-weight: 700;
 }

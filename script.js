@@ -8,6 +8,9 @@ btn.forEach(function (question) {
         elem.classList.remove("someanswer");
     });
     question.nextElementSibling.classList.toggle("someanswer");
+
+    question.classList.toggle("somebold");
+
     arrowbtn.forEach(function (arrow) {
       arrow.classList.toggle("someimage");
     });
